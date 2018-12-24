@@ -22,7 +22,9 @@ const connector = new builder.ChatConnector({
 	appPassword: process.env.APP_PW
 });
 
-const bot = new builder.UniversalBot(connector);
+const bot = new builder.UniversalBot(connector, {
+	storage: new builder.MemoryBotStorage()
+});
 server.post('/api/messages', connector.listen());
 
 // Bot on
