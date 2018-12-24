@@ -1,16 +1,10 @@
-# Kiddo's vision skype bot
-Skype bot for Kiddo's vision
+# Redlark skype bot
+Skype bot for Redlark
 
 # Commands
 ```
 @mentionBotName cao
 @mentionBotName pomoc
-@mentionBotName basshunter
-@mentionBotName attila
-@mentionBotName ljo
-@mentionBotName laza
-@mentionBotName mare
-@mentionBotName iva
 @mentionBotName nasa pod
 @mentionBotName sta radit veceras?
 @mentionBotName vreme Ime Grada
