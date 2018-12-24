@@ -1,0 +1,22 @@
+{
+  "name": "redlark-bot",
+  "version": "1.0.0",
+  "description": "Redlark's bot",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marko Kovacevic",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "botbuilder": "^3.8.4",
+    "dotenv": "^4.0.0",
+    "latest-news": "0.0.4",
+    "nasa-apod": "^0.1.1",
+    "random-puppy": "^1.1.0",
+    "restify": "^4.3.0",
+    "rss-parser": "^2.9.0",
+    "weather-js": "^2.0.0"
+  }
+}
